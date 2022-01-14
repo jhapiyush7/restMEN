@@ -1,5 +1,6 @@
 const express=require('express')
 require('./conn')
+const Student=require('./student');
 const app=express();
 const port=process.env.port||8000;
 app.get("/",(req,res)=>{
